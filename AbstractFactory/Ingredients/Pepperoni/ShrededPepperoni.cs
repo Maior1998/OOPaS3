@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory.Ingredients.Veggies
+namespace AbstractFactory.Ingredients.Pepperoni
 {
-    public class RedPepper: Veggie
+    public class ShrededPepperoni : Pepperoni
     {
-        public RedPepper() : base("Red Pepper")
+        public ShrededPepperoni() : base("Shreded Pepperoni")
         {
         }
     }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Ingredients.Pepperoni
 {
-    public class Pepperoni : Ingredient
+    public abstract class Pepperoni : Ingredient
     {
-        public Pepperoni(string name) : base(name)
+        protected Pepperoni(string name) : base(name)
         {
         }
     }
